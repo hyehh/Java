@@ -7,25 +7,33 @@ public class Factorial {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// 입력한 수의 factorial 구하기 (예: 4! = 4 * 3 * 2 * 1)
+		// 입력한 수의 factorial 구하기
 		
-		// 선언
 		Scanner scanner = new Scanner(System.in);
-		int number = 0;
-		int factorial = 1;
+		int num = 0;
+		int fac = 1;
 		
-		// 처리
 		System.out.print("Input your decimal no. : ");
-		number = scanner.nextInt();
+		num = scanner.nextInt();		
 		
-		for(int i=1; i<=number; i++) {
-			factorial = factorial * i;
+		// +일 경우
+
+		
+		for(int i=1; i<=num; i++) {
+			fac *= i;
 		}
 		
-		// 출력
-		System.out.println(number + "'s factorial value = " + factorial);
+		System.out.println(num + "'s factorial value = " + fac);
+		
+		// -일 경우
 		
 		
+		for(int i=num; i<=1; i--) {
+			fac *= i;
+		}
+		
+		System.out.println(num + "'s factorial value = " + fac);
+
 		
 		
 		
