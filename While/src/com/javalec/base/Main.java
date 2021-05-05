@@ -30,22 +30,21 @@ public class Main {
 		}
 		
 		System.out.println(tot);
-//		
-//		while(true) {
-//			if(i % 2 == 1) {
-//				System.out.println(i);
-//			}else {
-//				continue;
-//			}
-//			i++;
-//			
-//			if(i>10) {
-//				break;
-//			}
-//		}
-//		
-//		
-//		
+		
+		while(true) {
+			if(i % 2 == 1) {
+				System.out.println(i);
+			}else {
+				continue;
+			}
+				i++;
+			
+			if(i>10) {
+				break;
+		 }
+		}
+	
+	
 		
 		
 	}
